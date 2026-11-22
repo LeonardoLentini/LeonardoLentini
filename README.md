@@ -17,8 +17,8 @@ I'm interested in machine learning, data engineering and IoT systems. Here you c
 | Project | Description | Tech |
 |---------|-------------|------|
 | [employee-promotion-prediction](https://github.com/LeonardoLentini/employee-promotion-prediction) | Employee promotion prediction under severe class imbalance, with nested cross-validation and explainable AI | Python, scikit-learn, SHAP |
-| [LoveMining](https://github.com/Andryd22/LoveMining) *(team project)* | Matchmaking platform based on location and shared interests, with REST APIs over a document and a graph database | Java, Spring Boot, MongoDB, Neo4j |
-| [Project-CC-Montalbano-Group](https://github.com/Andryd22/Project-CC-Montalbano-Group) *(team project)* | Cloud Computing project: distributed data processing with Hadoop MapReduce and Spark | Java, Hadoop, PySpark, Flask, Docker |
+| [love-mining](https://github.com/LeonardoLentini/love-mining) *(team project)* | Matchmaking platform based on location and shared interests, with REST APIs over a document and a graph database | Java, Spring Boot, MongoDB, Neo4j |
+| [cloud-computing-mapreduce-spark](https://github.com/LeonardoLentini/cloud-computing-mapreduce-spark) *(team project)* | Big data pipeline ranking the best movie collaborations by average rating, with Hadoop MapReduce, Spark and a REST API | Java, Hadoop, PySpark, Flask, Docker |
 | [Internet-of-Things-Project](https://github.com/LeonardoLentini/Internet-of-Things-Project) | Smart Battery Manager: IoT microgrid with an Edge AI actuator switching between PV panel, battery and grid | C, Contiki-NG, CoAP, MQTT, Python |
 | [escape-room-tcp](https://github.com/LeonardoLentini/escape-room-tcp) | Cooperative client-server escape room with TCP sockets and I/O multiplexing | C |
 | [laureandosi](https://github.com/LeonardoLentini/laureandosi) | Web application that generates and emails graduation reports, with full UML design | PHP, UML |
