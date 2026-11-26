@@ -1,3 +1,0 @@
-- cambio completo di stile (sembra esageratamente fatto da claude)
-- modifiche ai testi 
-- modifiche ai contatti (più minimal)
