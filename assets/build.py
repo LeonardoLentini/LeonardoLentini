@@ -16,10 +16,8 @@ SUBTITLE = "AI & Data Engineering · University of Pisa"
 
 # Phrases shown one after the other in the header (placeholders for now)
 PHRASES = [
-    "Placeholder phrase number one, something I believe in.",
-    "A second line about how I like to work.",
-    "Something I'm curious about lately.",
-    "A small personal motto to close the loop.",
+    "Too bad you read this, you just lost The Game.",
+    "If you try until you can, then you can.",
 ]
 PHRASE_SECONDS = 4.5
 

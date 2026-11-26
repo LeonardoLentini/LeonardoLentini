@@ -19,9 +19,9 @@ What I enjoy most is the point where data, models and systems meet: training a m
 ## Outside of code
 
 <!-- Placeholder: replace with real hobbies and passions -->
-- **Hobby one**: a line about why I like it
-- **Hobby two**: a line about why I like it
-- **Something I'm into lately**: a line about it
+- **Puzzles**: mechanical puzzles such as the Rubik's cube, I enjoy challenge my own mind
+- **Sports**: I've played footbal since child and enjoy all kinds of sports
+- **Manga/Anime**: I'm passionate about this culture
 
 ## What I work with
 
