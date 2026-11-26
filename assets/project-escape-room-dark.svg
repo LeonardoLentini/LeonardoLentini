@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="Escape Room over TCP. B.Sc. Computer Networks. Two-player text escape room on a C server over TCP sockets.">
+<title>Escape Room over TCP. B.Sc. Computer Networks. Two-player text escape room on a C server over TCP sockets.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #dfeae2; }
+.acc { stroke: #5fbf7f; stroke-width: 2.6; }
+.mut { stroke: #8fa496; }
+.fnt { stroke: #2c3a31; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+.hand1 { transform-origin: 470px 110px; animation: tick 5s steps(20) infinite; }
+@keyframes tick { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#0f1813"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#8fa496" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><g filter="url(#hand)"><path d="M60,250 H540" class="ink draw" pathLength="1" style="animation-delay:0.00s"/><path d="M200,250 V60 H350 V250" class="ink draw" pathLength="1" style="animation-delay:0.10s"/><path d="M215,250 V75 H335 V250" class="ink draw" pathLength="1" style="animation-delay:0.16s"/><path d="M230,95 H320 V150 H230 Z" class="ink draw" pathLength="1" style="animation-delay:0.22s"/><path d="M230,170 H320 V230 H230 Z" class="ink draw" pathLength="1" style="animation-delay:0.28s"/><circle cx="322" cy="160" r="5" class="acc"/><g class="bob"><path d="M118,210 a14,14 0 1 1 0.1,0" class="acc draw" pathLength="1" style="animation-delay:0.60s"/><path d="M132,210 H180" class="acc draw" pathLength="1" style="animation-delay:0.66s"/><path d="M166,210 v12 M176,210 v9" class="acc draw" pathLength="1" style="animation-delay:0.72s"/></g><circle cx="470" cy="110" r="44" class="ink"/><path d="M504.0,110.0 L510.0,110.0" class="ink"/><path d="M470.0,144.0 L470.0,150.0" class="ink"/><path d="M436.0,110.0 L430.0,110.0" class="ink"/><path d="M470.0,76.0 L470.0,70.0" class="ink"/><path d="M470,110 V80" class="acc hand1"/><circle cx="470" cy="110" r="3" fill="#5fbf7f"/><path d="M350,200 C390,200 420,180 440,150" class="mut flow" stroke-dasharray="6 8"/></g></g>
+<path d="M40,296 H560" stroke="#2c3a31" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#dfeae2" class="serif">Escape Room over TCP<tspan font-size="14" fill="#5fbf7f" class="sans" dx="10">B.Sc. Computer Networks</tspan></text>
+<text x="40" y="350" font-size="15" fill="#8fa496" class="sans">Two-player text escape room on a C server over TCP sockets</text>
+
+</svg>

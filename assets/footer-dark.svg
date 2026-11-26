@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="">
+<title></title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #dfeae2; }
+.acc { stroke: #5fbf7f; stroke-width: 2.6; }
+.mut { stroke: #8fa496; }
+.fnt { stroke: #2c3a31; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="1200" height="100" rx="14" fill="#0f1813"/>
+<g filter="url(#hand)"><g transform="rotate(4 1098 66)"><path d="M1088,66 V24 H1108 V66" class="ink draw" pathLength="1" style="animation-delay:0.10s"/><path d="M1091,24 V16 H1105 V24" class="ink draw" pathLength="1" style="animation-delay:0.15s"/><path d="M1088,56 H1108" class="ink draw" pathLength="1" style="animation-delay:0.20s"/><path d="M1088,46 H1108" class="ink draw" pathLength="1" style="animation-delay:0.25s"/><path d="M1088,36 H1108" class="ink draw" pathLength="1" style="animation-delay:0.30s"/></g><path d="M40,66 H1160" class="ink draw" pathLength="1" style="animation-delay:0.00s"/></g><path d="M40,80 Q55.0,76 70,80 Q85.0,84 100,80 Q115.0,76 130,80 Q145.0,84 160,80 Q175.0,76 190,80 Q205.0,84 220,80 Q235.0,76 250,80 Q265.0,84 280,80 Q295.0,76 310,80 Q325.0,84 340,80 Q355.0,76 370,80 Q385.0,84 400,80 Q415.0,76 430,80 Q445.0,84 460,80 Q475.0,76 490,80 Q505.0,84 520,80 Q535.0,76 550,80 Q565.0,84 580,80 Q595.0,76 610,80 Q625.0,84 640,80 Q655.0,76 670,80 Q685.0,84 700,80 Q715.0,76 730,80 Q745.0,84 760,80 Q775.0,76 790,80 Q805.0,84 820,80 Q835.0,76 850,80 Q865.0,84 880,80 Q895.0,76 910,80 Q925.0,84 940,80 Q955.0,76 970,80 Q985.0,84 1000,80 Q1015.0,76 1030,80 Q1045.0,84 1060,80 Q1075.0,76 1090,80 Q1105.0,84 1120,80 Q1135.0,76 1150,80 Q1155.0,84 1160,80" fill="none" stroke="#5fbf7f" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="18 12" class="flow"/>
+</svg>

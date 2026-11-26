@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="LoveMining. M.Sc. Large-Scale Databases. Dating platform on MongoDB and a Neo4j graph of shared interests.">
+<title>LoveMining. M.Sc. Large-Scale Databases. Dating platform on MongoDB and a Neo4j graph of shared interests.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #dfeae2; }
+.acc { stroke: #5fbf7f; stroke-width: 2.6; }
+.mut { stroke: #8fa496; }
+.fnt { stroke: #2c3a31; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#0f1813"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#8fa496" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><g filter="url(#hand)"><path d="M110,80 L300,140" class="fnt"/><path d="M90,175 L300,140" class="fnt"/><path d="M190,225 L300,140" class="fnt"/><path d="M200,45 L300,140" class="fnt"/><path d="M420,40 L300,140" class="fnt"/><path d="M510,90 L300,140" class="fnt"/><path d="M500,200 L300,140" class="fnt"/><path d="M390,235 L300,140" class="fnt"/><path d="M300,30 L300,140" class="fnt"/><path d="M110,80 L200,45" class="mut draw" pathLength="1" style="animation-delay:0.20s"/><path d="M110,80 L90,175" class="mut draw" pathLength="1" style="animation-delay:0.25s"/><path d="M90,175 L190,225" class="mut draw" pathLength="1" style="animation-delay:0.30s"/><path d="M420,40 L510,90" class="mut draw" pathLength="1" style="animation-delay:0.35s"/><path d="M510,90 L500,200" class="mut draw" pathLength="1" style="animation-delay:0.40s"/><path d="M500,200 L390,235" class="mut draw" pathLength="1" style="animation-delay:0.45s"/><path d="M200,45 L300,30" class="mut draw" pathLength="1" style="animation-delay:0.50s"/><path d="M300,30 L420,40" class="mut draw" pathLength="1" style="animation-delay:0.55s"/><path d="M90,175 Q200,120 268,130" class="acc flow" stroke-dasharray="8 8"/><path d="M510,90 Q410,130 332,130" class="acc flow" stroke-dasharray="8 8"/><circle cx="110" cy="80" r="9" fill="#0f1813" class="ink"/><circle cx="90" cy="175" r="9" fill="#0f1813" class="acc"/><circle cx="190" cy="225" r="9" fill="#0f1813" class="ink"/><circle cx="200" cy="45" r="9" fill="#0f1813" class="ink"/><circle cx="420" cy="40" r="9" fill="#0f1813" class="ink"/><circle cx="510" cy="90" r="9" fill="#0f1813" class="acc"/><circle cx="500" cy="200" r="9" fill="#0f1813" class="ink"/><circle cx="390" cy="235" r="9" fill="#0f1813" class="ink"/><circle cx="300" cy="30" r="9" fill="#0f1813" class="ink"/><path d="M300,178 C255,148 250,108 277,102 C290,99 300,110 300,118 C300,110 310,99 323,102 C350,108 345,148 300,178 Z" fill="#5fbf7f" fill-opacity="0.18" class="acc beat"/></g></g>
+<path d="M40,296 H560" stroke="#2c3a31" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#dfeae2" class="serif">LoveMining<tspan font-size="14" fill="#5fbf7f" class="sans" dx="10">M.Sc. Large-Scale Databases</tspan></text>
+<text x="40" y="350" font-size="15" fill="#8fa496" class="sans">Dating platform on MongoDB and a Neo4j graph of shared interests</text>
+
+</svg>

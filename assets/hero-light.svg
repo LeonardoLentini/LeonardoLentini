@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Leonardo Lentini. M.Sc. student in AI and Data Engineering at the University of Pisa.">
+<title>Leonardo Lentini. M.Sc. student in AI and Data Engineering at the University of Pisa.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #1d3b2f; }
+.acc { stroke: #2f7d4f; stroke-width: 2.6; }
+.mut { stroke: #6b7a70; }
+.fnt { stroke: #c9cfc3; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+.ph { opacity: 0; animation: ph 18.0s linear infinite; }
+@keyframes ph { 0% { opacity: 0; transform: translateY(6px); } 3.00% { opacity: 1; transform: none; } 22.00% { opacity: 1; transform: none; } 25.00% { opacity: 0; transform: translateY(-6px); } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="1200" height="270" rx="14" fill="#f5f2e9"/>
+
+<text x="60" y="104" font-size="60" fill="#1d3b2f" class="serif fade" style="animation-delay:0.1s">Leonardo Lentini</text>
+<text x="62" y="144" font-size="18" fill="#6b7a70" class="sans fade" style="animation-delay:0.4s" letter-spacing="0.3">AI &amp; Data Engineering · University of Pisa</text>
+<text x="60" y="210" font-size="48" fill="#2f7d4f" class="serif fade" style="animation-delay:0.8s">“</text>
+<text x="92" y="200" font-size="21" font-style="italic" fill="#1d3b2f" class="serif ph ph0" style="animation-delay:0.0s">Placeholder phrase number one, something I believe in.</text><text x="92" y="200" font-size="21" font-style="italic" fill="#1d3b2f" class="serif ph ph1" style="animation-delay:4.5s">A second line about how I like to work.</text><text x="92" y="200" font-size="21" font-style="italic" fill="#1d3b2f" class="serif ph ph2" style="animation-delay:9.0s">Something I'm curious about lately.</text><text x="92" y="200" font-size="21" font-style="italic" fill="#1d3b2f" class="serif ph ph3" style="animation-delay:13.5s">A small personal motto to close the loop.</text>
+<path d="M60,240 Q75.0,236 90,240 Q105.0,244 120,240 Q135.0,236 150,240 Q165.0,244 180,240 Q195.0,236 210,240 Q225.0,244 240,240 Q255.0,236 270,240 Q285.0,244 300,240 Q315.0,236 330,240 Q345.0,244 360,240 Q375.0,236 390,240 Q405.0,244 420,240 Q435.0,236 450,240 Q465.0,244 480,240 Q495.0,236 510,240 Q525.0,244 540,240 Q555.0,236 570,240 Q585.0,244 600,240 Q615.0,236 630,240 Q645.0,244 660,240 Q675.0,236 690,240 Q705.0,244 720,240 Q735.0,236 750,240 Q765.0,244 780,240 Q795.0,236 810,240 Q825.0,244 840,240 Q855.0,236 870,240 Q885.0,244 900,240 Q915.0,236 930,240 Q945.0,244 960,240 Q975.0,236 990,240 Q1005.0,244 1020,240 Q1035.0,236 1050,240 Q1065.0,244 1080,240 Q1095.0,236 1110,240 Q1125.0,244 1140,240" fill="none" stroke="#2f7d4f" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="18 12" class="flow"/>
+
+</svg>

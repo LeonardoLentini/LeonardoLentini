@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="Prato Fiorito. B.Sc. Web Design. Minesweeper for the web with accounts and leaderboards.">
+<title>Prato Fiorito. B.Sc. Web Design. Minesweeper for the web with accounts and leaderboards.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #dfeae2; }
+.acc { stroke: #5fbf7f; stroke-width: 2.6; }
+.mut { stroke: #8fa496; }
+.fnt { stroke: #2c3a31; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+.wave { transform-box: fill-box; transform-origin: 0% 100%; animation: sway 2s ease-in-out infinite; }
+.sway { transform-box: fill-box; transform-origin: 50% 100%; animation: sway 3s ease-in-out infinite; }
+@keyframes sway { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#0f1813"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#8fa496" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><g filter="url(#hand)"><rect x="190" y="30" width="40" height="40" class="fnt"/><rect x="190" y="70" width="40" height="40" class="fnt"/><rect x="190" y="110" width="40" height="40" class="fnt"/><rect x="190" y="150" width="40" height="40" class="fnt"/><rect x="230" y="30" width="40" height="40" class="fnt"/><rect x="230" y="70" width="40" height="40" class="fnt"/><rect x="230" y="110" width="40" height="40" class="fnt"/><rect x="230" y="150" width="40" height="40" class="fnt"/><rect x="270" y="30" width="40" height="40" class="fnt"/><rect x="270" y="70" width="40" height="40" class="fnt"/><rect x="270" y="110" width="40" height="40" class="fnt"/><rect x="270" y="150" width="40" height="40" class="fnt"/><rect x="310" y="30" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="310" y="70" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="310" y="110" width="40" height="40" class="fnt"/><rect x="310" y="150" width="40" height="40" class="fnt"/><rect x="350" y="30" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="350" y="70" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="350" y="110" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="350" y="150" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="390" y="30" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="390" y="70" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="390" y="110" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><rect x="390" y="150" width="40" height="40" class="ink" style="fill:#2c3a31;fill-opacity:0.45"/><text x="290" y="57" font-size="19" text-anchor="middle" fill="#5fbf7f" class="sans">1</text><text x="290" y="97" font-size="19" text-anchor="middle" fill="#dfeae2" class="sans">2</text><text x="330" y="137" font-size="19" text-anchor="middle" fill="#5fbf7f" class="sans">1</text><text x="250" y="97" font-size="19" text-anchor="middle" fill="#5fbf7f" class="sans">1</text><text x="330" y="177" font-size="19" text-anchor="middle" fill="#dfeae2" class="sans">2</text><g class="wave"><path d="M363,143 V118" class="ink"/><path d="M363,118 L380,124 L363,130 Z" fill="#5fbf7f" class="acc"/></g><path d="M60,250 H540" class="ink draw" pathLength="1" style="animation-delay:0.00s"/><path d="M70,250 l3,-9 M76,250 l-2,-7" class="mut"/><path d="M92,250 l3,-9 M98,250 l-2,-7" class="mut"/><path d="M114,250 l3,-9 M120,250 l-2,-7" class="mut"/><path d="M136,250 l3,-9 M142,250 l-2,-7" class="mut"/><path d="M158,250 l3,-9 M164,250 l-2,-7" class="mut"/><path d="M180,250 l3,-9 M186,250 l-2,-7" class="mut"/><path d="M202,250 l3,-9 M208,250 l-2,-7" class="mut"/><path d="M224,250 l3,-9 M230,250 l-2,-7" class="mut"/><path d="M246,250 l3,-9 M252,250 l-2,-7" class="mut"/><path d="M268,250 l3,-9 M274,250 l-2,-7" class="mut"/><path d="M290,250 l3,-9 M296,250 l-2,-7" class="mut"/><path d="M312,250 l3,-9 M318,250 l-2,-7" class="mut"/><path d="M334,250 l3,-9 M340,250 l-2,-7" class="mut"/><path d="M356,250 l3,-9 M362,250 l-2,-7" class="mut"/><path d="M378,250 l3,-9 M384,250 l-2,-7" class="mut"/><path d="M400,250 l3,-9 M406,250 l-2,-7" class="mut"/><path d="M422,250 l3,-9 M428,250 l-2,-7" class="mut"/><path d="M444,250 l3,-9 M450,250 l-2,-7" class="mut"/><path d="M466,250 l3,-9 M472,250 l-2,-7" class="mut"/><path d="M488,250 l3,-9 M494,250 l-2,-7" class="mut"/><path d="M510,250 l3,-9 M516,250 l-2,-7" class="mut"/><path d="M532,250 l3,-9 M538,250 l-2,-7" class="mut"/><g class="sway" style="animation-delay:0.3s"><path d="M95,250 Q89,219.0 95,188" class="ink draw" pathLength="1" style="animation-delay:0.30s"/><circle cx="102" cy="188" r="6" class="acc"/><circle cx="88" cy="188" r="6" class="acc"/><circle cx="95" cy="195" r="6" class="acc"/><circle cx="95" cy="181" r="6" class="acc"/><circle cx="95" cy="188" r="3.5" fill="#5fbf7f"/></g><g class="sway" style="animation-delay:0.5s"><path d="M140,250 Q134,228.0 140,206" class="ink draw" pathLength="1" style="animation-delay:0.50s"/><circle cx="147" cy="206" r="6" class="acc"/><circle cx="133" cy="206" r="6" class="acc"/><circle cx="140" cy="213" r="6" class="acc"/><circle cx="140" cy="199" r="6" class="acc"/><circle cx="140" cy="206" r="3.5" fill="#5fbf7f"/></g><g class="sway" style="animation-delay:0.4s"><path d="M470,250 Q464,223.0 470,196" class="ink draw" pathLength="1" style="animation-delay:0.40s"/><circle cx="477" cy="196" r="6" class="acc"/><circle cx="463" cy="196" r="6" class="acc"/><circle cx="470" cy="203" r="6" class="acc"/><circle cx="470" cy="189" r="6" class="acc"/><circle cx="470" cy="196" r="3.5" fill="#5fbf7f"/></g><g class="sway" style="animation-delay:0.6s"><path d="M515,250 Q509,215.0 515,180" class="ink draw" pathLength="1" style="animation-delay:0.60s"/><circle cx="522" cy="180" r="6" class="acc"/><circle cx="508" cy="180" r="6" class="acc"/><circle cx="515" cy="187" r="6" class="acc"/><circle cx="515" cy="173" r="6" class="acc"/><circle cx="515" cy="180" r="3.5" fill="#5fbf7f"/></g></g></g>
+<path d="M40,296 H560" stroke="#2c3a31" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#dfeae2" class="serif">Prato Fiorito<tspan font-size="14" fill="#5fbf7f" class="sans" dx="10">B.Sc. Web Design</tspan></text>
+<text x="40" y="350" font-size="15" fill="#8fa496" class="sans">Minesweeper for the web with accounts and leaderboards</text>
+
+</svg>

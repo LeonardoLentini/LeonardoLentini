@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="FilmSphere. B.Sc. Databases. MySQL database for a movie streaming service.">
+<title>FilmSphere. B.Sc. Databases. MySQL database for a movie streaming service.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #1d3b2f; }
+.acc { stroke: #2f7d4f; stroke-width: 2.6; }
+.mut { stroke: #6b7a70; }
+.fnt { stroke: #c9cfc3; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+.reel { animation: reel 2.2s linear infinite; }
+@keyframes reel { to { transform: translateX(28px); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#f5f2e9"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#6b7a70" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><clipPath id="strip"><rect x="50" y="85" width="350" height="110"/></clipPath><g filter="url(#hand)"><path d="M80,250 H520" class="ink draw" pathLength="1" style="animation-delay:0.00s"/><path d="M50,85 H400" class="ink draw" pathLength="1" style="animation-delay:0.06s"/><path d="M50,195 H400" class="ink draw" pathLength="1" style="animation-delay:0.12s"/><g clip-path="url(#strip)"><g class="reel"><rect x="10" y="93" width="12" height="9" rx="2" class="ink"/><rect x="10" y="178" width="12" height="9" rx="2" class="ink"/><rect x="38" y="93" width="12" height="9" rx="2" class="ink"/><rect x="38" y="178" width="12" height="9" rx="2" class="ink"/><rect x="66" y="93" width="12" height="9" rx="2" class="ink"/><rect x="66" y="178" width="12" height="9" rx="2" class="ink"/><rect x="94" y="93" width="12" height="9" rx="2" class="ink"/><rect x="94" y="178" width="12" height="9" rx="2" class="ink"/><rect x="122" y="93" width="12" height="9" rx="2" class="ink"/><rect x="122" y="178" width="12" height="9" rx="2" class="ink"/><rect x="150" y="93" width="12" height="9" rx="2" class="ink"/><rect x="150" y="178" width="12" height="9" rx="2" class="ink"/><rect x="178" y="93" width="12" height="9" rx="2" class="ink"/><rect x="178" y="178" width="12" height="9" rx="2" class="ink"/><rect x="206" y="93" width="12" height="9" rx="2" class="ink"/><rect x="206" y="178" width="12" height="9" rx="2" class="ink"/><rect x="234" y="93" width="12" height="9" rx="2" class="ink"/><rect x="234" y="178" width="12" height="9" rx="2" class="ink"/><rect x="262" y="93" width="12" height="9" rx="2" class="ink"/><rect x="262" y="178" width="12" height="9" rx="2" class="ink"/><rect x="290" y="93" width="12" height="9" rx="2" class="ink"/><rect x="290" y="178" width="12" height="9" rx="2" class="ink"/><rect x="318" y="93" width="12" height="9" rx="2" class="ink"/><rect x="318" y="178" width="12" height="9" rx="2" class="ink"/><rect x="346" y="93" width="12" height="9" rx="2" class="ink"/><rect x="346" y="178" width="12" height="9" rx="2" class="ink"/><rect x="374" y="93" width="12" height="9" rx="2" class="ink"/><rect x="374" y="178" width="12" height="9" rx="2" class="ink"/><rect x="402" y="93" width="12" height="9" rx="2" class="ink"/><rect x="402" y="178" width="12" height="9" rx="2" class="ink"/><rect x="430" y="93" width="12" height="9" rx="2" class="ink"/><rect x="430" y="178" width="12" height="9" rx="2" class="ink"/><rect x="10" y="111" width="76" height="58" rx="3" class="mut"/><rect x="102" y="111" width="76" height="58" rx="3" class="mut"/><rect x="194" y="111" width="76" height="58" rx="3" class="mut"/><rect x="286" y="111" width="76" height="58" rx="3" class="mut"/><rect x="378" y="111" width="76" height="58" rx="3" class="mut"/></g></g><path d="M210,124 V166 L242,145 Z" fill="#2f7d4f" fill-opacity="0.3" class="acc"/><ellipse cx="485" cy="95" rx="50" ry="14" class="acc"/><path d="M435,190 V95" class="ink draw" pathLength="1" style="animation-delay:0.40s"/><path d="M535,190 V95" class="ink draw" pathLength="1" style="animation-delay:0.46s"/><path d="M435,190 A50,14 0 0 0 535,190" class="ink draw" pathLength="1" style="animation-delay:0.52s"/><path d="M435,128 A50,14 0 0 0 535,128" class="ink draw" pathLength="1" style="animation-delay:0.58s"/><path d="M435,160 A50,14 0 0 0 535,160" class="ink draw" pathLength="1" style="animation-delay:0.64s"/><path d="M400,140 C415,140 420,120 433,118" class="acc draw" pathLength="1" style="animation-delay:0.90s"/></g></g>
+<path d="M40,296 H560" stroke="#c9cfc3" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#1d3b2f" class="serif">FilmSphere<tspan font-size="14" fill="#2f7d4f" class="sans" dx="10">B.Sc. Databases</tspan></text>
+<text x="40" y="350" font-size="15" fill="#6b7a70" class="sans">MySQL database for a movie streaming service</text>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="Smart Battery Manager. M.Sc. Internet of Things. Contiki-NG microgrid with an edge AI actuator, CoAP and MQTT.">
+<title>Smart Battery Manager. M.Sc. Internet of Things. Contiki-NG microgrid with an edge AI actuator, CoAP and MQTT.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #1d3b2f; }
+.acc { stroke: #2f7d4f; stroke-width: 2.6; }
+.mut { stroke: #6b7a70; }
+.fnt { stroke: #c9cfc3; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+.lvl { opacity: 0.15; animation: lvl 3s ease-in-out infinite; }
+@keyframes lvl { 0%,15% { opacity: 0.15; } 35%,80% { opacity: 0.9; } 100% { opacity: 0.15; } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#f5f2e9"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#6b7a70" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><g filter="url(#hand)"><path d="M50,220 H550" class="ink draw" pathLength="1" style="animation-delay:0.00s"/><path d="M70,175 L170,175 L192,130 L92,130 Z" class="ink draw" pathLength="1" style="animation-delay:0.20s"/><path d="M103,175 L125,130 M136,175 L158,130" class="ink draw" pathLength="1" style="animation-delay:0.26s"/><path d="M81,153 H181" class="ink draw" pathLength="1" style="animation-delay:0.32s"/><path d="M131,175 V220" class="ink draw" pathLength="1" style="animation-delay:0.38s"/><path d="M108,220 H154" class="ink draw" pathLength="1" style="animation-delay:0.44s"/><path d="M262,105 H338 V205 H262 Z" class="ink draw" pathLength="1" style="animation-delay:0.50s"/><path d="M287,105 V95 H313 V105" class="ink draw" pathLength="1" style="animation-delay:0.56s"/><path d="M450,220 L470,82 H490 L510,220" class="ink draw" pathLength="1" style="animation-delay:0.80s"/><path d="M440,98 H520" class="ink draw" pathLength="1" style="animation-delay:0.86s"/><path d="M460,150 H500 M455,185 H505" class="ink draw" pathLength="1" style="animation-delay:0.92s"/><path d="M468,104 L496,150 M492,104 L464,150" class="ink draw" pathLength="1" style="animation-delay:0.98s"/><path d="M440,98 v10 M520,98 v10" class="ink draw" pathLength="1" style="animation-delay:1.04s"/><g class="spin"><circle cx="110" cy="62" r="15" class="acc"/><path d="M134.0,62.0 L144.0,62.0" class="acc"/><path d="M127.0,79.0 L134.0,86.0" class="acc"/><path d="M110.0,86.0 L110.0,96.0" class="acc"/><path d="M93.0,79.0 L86.0,86.0" class="acc"/><path d="M86.0,62.0 L76.0,62.0" class="acc"/><path d="M93.0,45.0 L86.0,38.0" class="acc"/><path d="M110.0,38.0 L110.0,28.0" class="acc"/><path d="M127.0,45.0 L134.0,38.0" class="acc"/></g><path d="M190,160 H262" class="acc flow" stroke-dasharray="8 8"/><path d="M338,160 H458" class="acc flow" stroke-dasharray="8 8"/></g><rect x="274" y="180" width="52" height="17" rx="3" fill="#2f7d4f" class="lvl" style="animation-delay:0.0s"/><rect x="274" y="155" width="52" height="17" rx="3" fill="#2f7d4f" class="lvl" style="animation-delay:0.5s"/><rect x="274" y="130" width="52" height="17" rx="3" fill="#2f7d4f" class="lvl" style="animation-delay:1.0s"/></g>
+<path d="M40,296 H560" stroke="#c9cfc3" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#1d3b2f" class="serif">Smart Battery Manager<tspan font-size="14" fill="#2f7d4f" class="sans" dx="10">M.Sc. Internet of Things</tspan></text>
+<text x="40" y="350" font-size="15" fill="#6b7a70" class="sans">Contiki-NG microgrid with an edge AI actuator, CoAP and MQTT</text>
+
+</svg>

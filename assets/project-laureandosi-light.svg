@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="370" viewBox="0 0 600 370" role="img" aria-label="Laureandosi. B.Sc. Software Engineering. Graduation reports as PDFs, emailed to students, designed in UML.">
+<title>Laureandosi. B.Sc. Software Engineering. Graduation reports as PDFs, emailed to students, designed in UML.</title>
+<style>
+.serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif; }
+.sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.ink, .acc, .mut, .fnt { fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ink { stroke: #1d3b2f; }
+.acc { stroke: #2f7d4f; stroke-width: 2.6; }
+.mut { stroke: #6b7a70; }
+.fnt { stroke: #c9cfc3; stroke-width: 1.6; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.fade { opacity: 0; animation: fade 1s ease-out forwards; }
+@keyframes fade { to { opacity: 1; } }
+.flow { animation: flow 2.4s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -60; } }
+.spin { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bob { animation: bob 2.4s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+.beat { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+@keyframes beat { 0%,100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+
+.swing { transform-origin: 190px 110px; animation: swing 3s ease-in-out infinite; }
+@keyframes swing { 0%,100% { transform: rotate(0); } 50% { transform: rotate(5deg); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+  .ph { opacity: 0 !important; } .ph0 { opacity: 1 !important; transform: none !important; }
+  .lvl { opacity: 0.9 !important; } }
+</style>
+<defs>
+  <filter id="hand" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+    <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+  </filter>
+</defs>
+<rect width="600" height="370" rx="14" fill="#f5f2e9"/>
+
+<rect x="5" y="5" width="590" height="360" rx="16" fill="none" stroke="#6b7a70" stroke-opacity="0.5" stroke-width="1.5"/>
+<g transform="translate(0,12)"><g filter="url(#hand)"><path d="M80,250 H520" class="ink draw" pathLength="1" style="animation-delay:0.00s"/><path d="M100,110 L190,78 L280,110 L190,142 Z" class="ink draw" pathLength="1" style="animation-delay:0.10s"/><path d="M140,126 V168 C165,184 215,184 240,168 V126" class="ink draw" pathLength="1" style="animation-delay:0.16s"/><g class="swing"><path d="M190,110 L262,128 V168" class="acc draw" pathLength="1" style="animation-delay:0.60s"/><path d="M256,168 H268 L262,182 Z" class="acc draw" pathLength="1" style="animation-delay:0.66s"/></g><path d="M385,122 V58 H485 V122" class="ink draw" pathLength="1" style="animation-delay:0.50s"/><path d="M400,76 H468 M400,90 H460 M400,104 H468" class="ink draw" pathLength="1" style="animation-delay:0.56s"/><path d="M360,122 H520 V222 H360 Z" class="ink draw" pathLength="1" style="animation-delay:0.70s"/><path d="M360,122 L440,176 L520,122" class="ink draw" pathLength="1" style="animation-delay:0.76s"/><path d="M360,222 L420,170 M520,222 L460,170" class="ink draw" pathLength="1" style="animation-delay:0.82s"/><path d="M285,170 C315,195 330,190 352,172" class="acc flow" stroke-dasharray="7 7"/></g></g>
+<path d="M40,296 H560" stroke="#c9cfc3" stroke-width="1.2"/>
+<text x="40" y="326" font-size="22" fill="#1d3b2f" class="serif">Laureandosi<tspan font-size="14" fill="#2f7d4f" class="sans" dx="10">B.Sc. Software Engineering</tspan></text>
+<text x="40" y="350" font-size="15" fill="#6b7a70" class="sans">Graduation reports as PDFs, emailed to students, designed in UML</text>
+
+</svg>
